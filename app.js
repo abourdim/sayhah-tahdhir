@@ -11,7 +11,7 @@ const T = {
     tabHome: 'الرئيسية', tabCards: 'البطاقات', tabQuiz: 'المسابقة',
     tabProgress: 'تقدمي', tabAbout: 'الكتاب',
     cardsTitle: 'التحديات والحلول',
-    cardsDesc: '١٥ بطاقة عن التحديات وطرق الحماية من كتاب الشيخ محمد الغزالي — كل بطاقة بآية وحديث وتطبيق عملي',
+    cardsDesc: '٢٠ بطاقة عن التحديات وطرق الحماية من كتاب الشيخ محمد الغزالي — كل بطاقة بآية وحديث وتطبيق عملي',
     quizTitle: '🏆 من سيصبح عالِماً؟',
     quizDesc: 'اختبر معلوماتك عن حماية الهوية — ٤ خيارات لكل سؤال',
     progressTitle: 'رحلتي في الوعي',
@@ -45,7 +45,7 @@ const T = {
     badge_persistent: 'مثابر',
     badge_expert: 'خبير',
     splashFeatures: [
-      '١٥ بطاقة عن التحديات وطرق الحماية',
+      '٢٠ بطاقة عن التحديات وطرق الحماية',
       'مسابقة "من سيصبح عالماً" بالمكافآت',
       'نظام النقاط والشارات والمستويات',
       'وضع مستكشف صغير ووضع باحث شاب'
@@ -59,7 +59,7 @@ const T = {
     tabHome: 'Home', tabCards: 'Cards', tabQuiz: 'Quiz',
     tabProgress: 'Progress', tabAbout: 'Book',
     cardsTitle: 'Challenges & Solutions',
-    cardsDesc: '15 cards about challenges and protection methods from Sheikh al-Ghazali — each with a verse, hadith, and practical application',
+    cardsDesc: '20 cards about challenges and protection methods from Sheikh al-Ghazali — each with a verse, hadith, and practical application',
     quizTitle: '🏆 Who Wants to Be a Scholar?',
     quizDesc: 'Test your knowledge about protecting identity — 4 choices per question',
     progressTitle: 'My Awareness Journey',
@@ -93,7 +93,7 @@ const T = {
     badge_persistent: 'Persistent',
     badge_expert: 'Expert',
     splashFeatures: [
-      '15 cards about challenges and protection methods',
+      '20 cards about challenges and protection methods',
       '"Who Wants to Be a Scholar?" quiz with rewards',
       'Points, badges, and level system',
       'Young Explorer and Teen Scholar modes'
@@ -107,7 +107,7 @@ const T = {
     tabHome: 'Accueil', tabCards: 'Cartes', tabQuiz: 'Quiz',
     tabProgress: 'Progres', tabAbout: 'Livre',
     cardsTitle: 'Defis et Solutions',
-    cardsDesc: '15 cartes sur les defis et les methodes de protection du livre du Sheikh al-Ghazali — chacune avec un verset, un hadith et une application pratique',
+    cardsDesc: '20 cartes sur les defis et les methodes de protection du livre du Sheikh al-Ghazali — chacune avec un verset, un hadith et une application pratique',
     quizTitle: '🏆 Qui Veut Devenir Savant ?',
     quizDesc: 'Testez vos connaissances sur la protection de l\'identite — 4 choix par question',
     progressTitle: 'Mon Parcours de Conscience',
@@ -141,7 +141,7 @@ const T = {
     badge_persistent: 'Perseverant',
     badge_expert: 'Expert',
     splashFeatures: [
-      '15 cartes sur les defis et les methodes de protection',
+      '20 cartes sur les defis et les methodes de protection',
       'Quiz << Qui Veut Devenir Savant ? >> avec recompenses',
       'Systeme de points, badges et niveaux',
       'Modes Jeune Explorateur et Jeune Chercheur'
@@ -153,9 +153,9 @@ const T = {
 const CARDS = [
   {
     id:1, emoji:'🎯',
-    ar:{title:'استغلال الفقر',desc:'بعض الجهات تستغل فقر المسلمين لتغيير معتقداتهم. يقدمون المساعدات المادية مشروطة بتغيير الدين. الشيخ الغزالي يحذر من أن الجوع لا يبرر التخلي عن العقيدة ويدعو لمؤسسات إسلامية تسد الحاجة.',verse:'وَلَنْ تَرْضَى عَنْكَ الْيَهُودُ وَلَا النَّصَارَى حَتَّى تَتَّبِعَ مِلَّتَهُمْ',verseRef:'البقرة ١٢٠',hadith:'ليس المؤمن الذي يشبع وجاره جائع إلى جنبه — رواه البيهقي',action:'تبرع اليوم لمؤسسة خيرية إسلامية تساعد الفقراء في الحفاظ على كرامتهم',young:'ساعد من يحتاج! عندما نعطي الفقراء نحميهم من أي شخص يريد استغلالهم 🎯'},
-    en:{title:'Exploiting Poverty',desc:'Some groups exploit the poverty of Muslims to change their beliefs. They offer material aid conditioned on changing religion. Sheikh al-Ghazali warns that hunger does not justify abandoning faith and calls for Islamic institutions to fill the need.',verse:'And never will the Jews or Christians approve of you until you follow their religion',verseRef:'Al-Baqarah 120',hadith:'He is not a believer who eats his fill while his neighbor goes hungry — Bayhaqi',action:'Donate today to an Islamic charity that helps the poor while preserving their dignity',young:'Help those in need! When we give to the poor, we protect them from anyone who wants to take advantage 🎯'},
-    fr:{title:'Exploiter la Pauvrete',desc:'Certains groupes exploitent la pauvrete des musulmans pour changer leurs croyances. Ils offrent une aide materielle conditionnee au changement de religion. Le Sheikh al-Ghazali avertit que la faim ne justifie pas l\'abandon de la foi et appelle a des institutions islamiques pour combler le besoin.',verse:'Et jamais les Juifs ni les Chretiens ne seront satisfaits de toi jusqu\'a ce que tu suives leur religion',verseRef:'Al-Baqarah 120',hadith:'N\'est pas croyant celui qui mange a sa faim alors que son voisin a faim a cote de lui — Bayhaqi',action:'Faites un don aujourd\'hui a une organisation caritative islamique qui aide les pauvres en preservant leur dignite',young:'Aide ceux qui en ont besoin ! Quand nous donnons aux pauvres, nous les protegeons de ceux qui veulent en profiter 🎯'}
+    ar:{title:'استغلال الفقر',desc:'بعض الجهات تستغل فقر المسلمين لتغيير معتقداتهم عبر تقديم المساعدات المادية المشروطة بتغيير الدين أو حضور طقوس مخالفة. هذا الأسلوب يستهدف المناطق الأكثر فقراً في أفريقيا وآسيا حيث يعاني الملايين من الجوع والمرض. الشيخ الغزالي يحذر من أن الجوع لا يبرر التخلي عن العقيدة ويدعو لمؤسسات إسلامية تسد الحاجة وتحفظ الكرامة. الحل يبدأ ببناء شبكات تكافل اجتماعي إسلامية قوية تصل لكل محتاج دون شروط.',verse:'وَلَنْ تَرْضَى عَنْكَ الْيَهُودُ وَلَا النَّصَارَى حَتَّى تَتَّبِعَ مِلَّتَهُمْ',verseRef:'البقرة ١٢٠',hadith:'ليس المؤمن الذي يشبع وجاره جائع إلى جنبه — رواه البيهقي',action:'تبرع اليوم لمؤسسة خيرية إسلامية تساعد الفقراء في الحفاظ على كرامتهم',young:'ساعد من يحتاج! عندما نعطي الفقراء نحميهم من أي شخص يريد استغلالهم 🎯'},
+    en:{title:'Exploiting Poverty',desc:'Some groups exploit the poverty of Muslims to change their beliefs by offering material aid conditioned on changing religion or attending opposing rituals. This method targets the poorest regions in Africa and Asia where millions suffer from hunger and disease. Sheikh al-Ghazali warns that hunger does not justify abandoning faith and calls for Islamic institutions to fill the need while preserving dignity. The solution begins with building strong Islamic social solidarity networks that reach every person in need without conditions.',verse:'And never will the Jews or Christians approve of you until you follow their religion',verseRef:'Al-Baqarah 120',hadith:'He is not a believer who eats his fill while his neighbor goes hungry — Bayhaqi',action:'Donate today to an Islamic charity that helps the poor while preserving their dignity',young:'Help those in need! When we give to the poor, we protect them from anyone who wants to take advantage 🎯'},
+    fr:{title:'Exploiter la Pauvrete',desc:'Certains groupes exploitent la pauvrete des musulmans pour changer leurs croyances en offrant une aide materielle conditionnee au changement de religion ou a la participation a des rituels contraires. Cette methode cible les regions les plus pauvres d\'Afrique et d\'Asie ou des millions souffrent de la faim et de la maladie. Le Sheikh al-Ghazali avertit que la faim ne justifie pas l\'abandon de la foi et appelle a des institutions islamiques qui comblent le besoin tout en preservant la dignite. La solution commence par la construction de reseaux de solidarite sociale islamiques forts.',verse:'Et jamais les Juifs ni les Chretiens ne seront satisfaits de toi jusqu\'a ce que tu suives leur religion',verseRef:'Al-Baqarah 120',hadith:'N\'est pas croyant celui qui mange a sa faim alors que son voisin a faim a cote de lui — Bayhaqi',action:'Faites un don aujourd\'hui a une organisation caritative islamique qui aide les pauvres en preservant leur dignite',young:'Aide ceux qui en ont besoin ! Quand nous donnons aux pauvres, nous les protegeons de ceux qui veulent en profiter 🎯'}
   },
   {
     id:2, emoji:'🏫',
@@ -240,6 +240,36 @@ const CARDS = [
     ar:{title:'الاستعداد الفكري',desc:'المسلم يجب أن يكون مستعداً فكرياً للرد على الشبهات. تعلّم الحجج وفهم المقارنة بين الأديان يجعل المسلم قادراً على الدفاع عن دينه بالعقل والدليل.',verse:'وَجَادِلْهُمْ بِالَّتِي هِيَ أَحْسَنُ',verseRef:'النحل ١٢٥',hadith:'إنما العلم بالتعلّم — رواه البخاري',action:'اقرأ اليوم عن شبهة شائعة ضد الإسلام وتعلّم الرد عليها بالدليل',young:'كن ذكياً واستعد! تعلّم كيف تجيب على الأسئلة عن دينك بثقة 🧠'},
     en:{title:'Intellectual Preparation',desc:'A Muslim must be intellectually prepared to respond to doubts. Learning arguments and understanding comparative religion makes a Muslim capable of defending their faith with reason and evidence.',verse:'And argue with them in a way that is best',verseRef:'An-Nahl 125',hadith:'Knowledge is only gained through learning — Bukhari',action:'Read today about a common misconception about Islam and learn how to refute it with evidence',young:'Be smart and prepared! Learn how to answer questions about your religion with confidence 🧠'},
     fr:{title:'La Preparation Intellectuelle',desc:'Un musulman doit etre intellectuellement prepare a repondre aux doutes. Apprendre les arguments et comprendre la religion comparee rend le musulman capable de defendre sa foi par la raison et la preuve.',verse:'Et discute avec eux de la meilleure maniere',verseRef:'An-Nahl 125',hadith:'Le savoir ne s\'acquiert que par l\'apprentissage — Bukhari',action:'Lisez aujourd\'hui sur une idee fausse courante sur l\'Islam et apprenez a la refuter avec des preuves',young:'Sois intelligent et prepare ! Apprends a repondre aux questions sur ta religion avec confiance 🧠'}
+  },
+  {
+    id:16, emoji:'📡',
+    ar:{title:'التلاعب الإعلامي المنظم',desc:'وسائل الإعلام الكبرى قد تُستخدم كأداة ممنهجة لتشويه صورة الإسلام من خلال انتقاء الأخبار السلبية وتضخيمها وتجاهل الإيجابيات. يُصنع المحتوى بعناية ليرسم صورة نمطية مخيفة عن المسلمين. الوعي بهذه الآلية هو الخطوة الأولى لمقاومتها — تعلّم كيف تقرأ ما بين السطور وتحلل الرسائل المخفية في كل خبر.',verse:'وَإِذَا جَاءَهُمْ أَمْرٌ مِنَ الْأَمْنِ أَوِ الْخَوْفِ أَذَاعُوا بِهِ وَلَوْ رَدُّوهُ إِلَى الرَّسُولِ وَإِلَى أُولِي الْأَمْرِ مِنْهُمْ لَعَلِمَهُ الَّذِينَ يَسْتَنْبِطُونَهُ مِنْهُمْ',verseRef:'النساء ٨٣',hadith:'إن من أشر الناس عند الله منزلة يوم القيامة الرجل يفضي إلى امرأته وتفضي إليه ثم ينشر سرها — رواه مسلم',action:'حلّل خبراً عن الإسلام في وسائل الإعلام اليوم — اسأل نفسك: ما المصدر؟ ما السياق المحذوف؟ ما الهدف؟',young:'ليس كل ما تراه في الأخبار صحيحاً! تعلّم أن تسأل: من كتب هذا؟ ولماذا؟ 📡'},
+    en:{title:'Organized Media Manipulation',desc:'Major media outlets can be used as systematic tools to distort the image of Islam by selectively amplifying negative news while ignoring positives. Content is carefully crafted to paint a frightening stereotype of Muslims. Awareness of this mechanism is the first step to resisting it — learn to read between the lines and analyze hidden messages in every report.',verse:'And when there comes to them information about security or fear, they spread it around. But if they had referred it back to the Messenger or those in authority, those who can draw correct conclusions would have known',verseRef:'An-Nisa 83',hadith:'Among the most evil of people before Allah on the Day of Resurrection is the man who goes to his wife and she to him, then he spreads her secrets — Muslim',action:'Analyze a news story about Islam in the media today — ask yourself: What is the source? What context is missing? What is the goal?',young:'Not everything you see in the news is true! Learn to ask: Who wrote this? And why? 📡'},
+    fr:{title:'La Manipulation Mediatique Organisee',desc:'Les grands medias peuvent etre utilises comme outils systematiques pour deformer l\'image de l\'Islam en selectionnant et en amplifiant les nouvelles negatives tout en ignorant les positives. Le contenu est soigneusement elabore pour peindre un stereotype effrayant des musulmans. La prise de conscience de ce mecanisme est la premiere etape pour y resister.',verse:'Et quand leur parvient une nouvelle touchant la securite ou la peur, ils la diffusent. S\'ils la renvoyaient au Messager et aux detenteurs de l\'autorite, ceux d\'entre eux qui cherchent a etre eclaires l\'auraient su',verseRef:'An-Nisa 83',hadith:'Parmi les pires gens aupres d\'Allah au Jour de la Resurrection est l\'homme qui va vers sa femme puis divulgue ses secrets — Muslim',action:'Analysez une nouvelle sur l\'Islam dans les medias aujourd\'hui — demandez-vous : Quelle est la source ? Quel contexte manque ? Quel est le but ?',young:'Tout ce que tu vois dans les nouvelles n\'est pas vrai ! Apprends a demander : Qui a ecrit cela ? Et pourquoi ? 📡'}
+  },
+  {
+    id:17, emoji:'📲',
+    ar:{title:'التحدي الرقمي وحماية الشباب',desc:'وسائل التواصل الاجتماعي أصبحت ساحة جديدة للتأثير على عقول الشباب المسلم. المحتوى المصمم بعناية يستهدف المراهقين بأسلوب جذاب يبعدهم عن هويتهم تدريجياً. الخوارزميات تعزز المحتوى المثير وتهمش المحتوى البنّاء. على الأسرة والمجتمع تعليم الشباب مهارات التفكير النقدي الرقمي وكيفية استخدام هذه المنصات بوعي ومسؤولية.',verse:'يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ وَقُولُوا قَوْلًا سَدِيدًا',verseRef:'الأحزاب ٧٠',hadith:'كل مولود يولد على الفطرة فأبواه يهوّدانه أو ينصّرانه أو يمجّسانه — متفق عليه',action:'راجع إعدادات الخصوصية في حساباتك على وسائل التواصل وتابع صفحات إسلامية تثري معرفتك',young:'الإنترنت مفيد لكن فيه أيضاً أشياء تريد تغييرك! كن ذكياً واختر المحتوى الجيد 📲'},
+    en:{title:'The Digital Challenge and Protecting Youth',desc:'Social media has become a new arena for influencing the minds of Muslim youth. Carefully designed content targets teenagers with an attractive style that gradually distances them from their identity. Algorithms amplify sensational content and marginalize constructive material. Families and communities must teach youth digital critical thinking skills and how to use these platforms with awareness and responsibility.',verse:'O you who believe, fear Allah and speak words of appropriate justice',verseRef:'Al-Ahzab 70',hadith:'Every child is born upon the fitrah, then their parents make them Jewish, Christian, or Zoroastrian — Agreed upon',action:'Review privacy settings on your social media accounts and follow Islamic pages that enrich your knowledge',young:'The internet is useful but it also has things that want to change you! Be smart and choose good content 📲'},
+    fr:{title:'Le Defi Numerique et la Protection des Jeunes',desc:'Les reseaux sociaux sont devenus un nouveau champ d\'influence sur les esprits des jeunes musulmans. Le contenu soigneusement concu cible les adolescents avec un style attrayant qui les eloigne progressivement de leur identite. Les algorithmes amplifient le contenu sensationnel et marginalisent le contenu constructif. Les familles et les communautes doivent enseigner aux jeunes la pensee critique numerique.',verse:'O vous qui croyez, craignez Allah et dites des paroles justes',verseRef:'Al-Ahzab 70',hadith:'Chaque enfant nait selon la fitrah, puis ses parents en font un juif, un chretien ou un zoroastrien — Unanimement reconnu',action:'Verifiez les parametres de confidentialite de vos comptes de reseaux sociaux et suivez des pages islamiques enrichissantes',young:'Internet est utile mais il y a aussi des choses qui veulent te changer ! Sois intelligent et choisis le bon contenu 📲'}
+  },
+  {
+    id:18, emoji:'🛡️',
+    ar:{title:'حماية الأطفال في العصر الرقمي',desc:'الأطفال اليوم يتعرضون لمؤثرات أكثر بكثير من أي جيل سابق عبر الأجهزة اللوحية والهواتف الذكية. المحتوى الموجه للأطفال قد يحمل رسائل خفية تتعارض مع القيم الإسلامية. على الوالدين مراقبة ما يشاهده أطفالهم وتوفير بدائل إسلامية جذابة — قصص أنبياء مصورة، تطبيقات قرآنية تفاعلية، ألعاب تعليمية إسلامية.',verse:'يَا أَيُّهَا الَّذِينَ آمَنُوا قُوا أَنْفُسَكُمْ وَأَهْلِيكُمْ نَارًا وَقُودُهَا النَّاسُ وَالْحِجَارَةُ',verseRef:'التحريم ٦',hadith:'ما من عبد يسترعيه الله رعية يموت يوم يموت وهو غاش لرعيته إلا حرم الله عليه الجنة — متفق عليه',action:'راجع التطبيقات على هاتف طفلك اليوم وحمّل له تطبيقاً إسلامياً تعليمياً مفيداً',young:'استمتع بالألعاب والفيديوهات الإسلامية! فيها مغامرات ممتعة وقصص أنبياء رائعة 🛡️'},
+    en:{title:'Protecting Children in the Digital Age',desc:'Children today are exposed to far more influences than any previous generation through tablets and smartphones. Content directed at children may carry hidden messages that conflict with Islamic values. Parents must monitor what their children watch and provide attractive Islamic alternatives — animated prophet stories, interactive Quran apps, educational Islamic games.',verse:'O you who believe, protect yourselves and your families from a Fire whose fuel is people and stones',verseRef:'At-Tahrim 6',hadith:'No servant whom Allah entrusts with a flock dies while being dishonest to them except that Allah forbids him Paradise — Agreed upon',action:'Review the apps on your child\'s phone today and download a beneficial Islamic educational app',young:'Enjoy Islamic games and videos! They have exciting adventures and amazing prophet stories 🛡️'},
+    fr:{title:'Proteger les Enfants a l\'Ere Numerique',desc:'Les enfants d\'aujourd\'hui sont exposes a beaucoup plus d\'influences que toute generation precedente via les tablettes et les smartphones. Le contenu destine aux enfants peut contenir des messages caches contraires aux valeurs islamiques. Les parents doivent surveiller ce que regardent leurs enfants et fournir des alternatives islamiques attrayantes — histoires animees de prophetes, applications coraniques interactives, jeux educatifs islamiques.',verse:'O vous qui croyez, protegez-vous et vos familles d\'un Feu dont le combustible est les gens et les pierres',verseRef:'At-Tahrim 6',hadith:'Aucun serviteur a qui Allah confie un troupeau ne meurt en etant malhonnete envers eux sans qu\'Allah ne lui interdise le Paradis — Unanimement reconnu',action:'Verifiez les applications sur le telephone de votre enfant aujourd\'hui et telechargez une application educative islamique',young:'Profite des jeux et des videos islamiques ! Il y a des aventures passionnantes et des histoires de prophetes incroyables 🛡️'}
+  },
+  {
+    id:19, emoji:'🌱',
+    ar:{title:'بناء البدائل الإسلامية',desc:'أفضل دفاع هو بناء بدائل إسلامية قوية وجذابة في كل مجال: قنوات يوتيوب إسلامية للأطفال، مدارس تجمع بين التميز الأكاديمي والتربية الإيمانية، مخيمات صيفية إسلامية، مسابقات علمية ودينية. عندما يجد الشاب بيئة إسلامية نابضة بالحياة لا يبحث عن بدائل أخرى. المبادرة خير من الانتظار.',verse:'وَقُلِ اعْمَلُوا فَسَيَرَى اللَّهُ عَمَلَكُمْ وَرَسُولُهُ وَالْمُؤْمِنُونَ',verseRef:'التوبة ١٠٥',hadith:'إن قامت الساعة وفي يد أحدكم فسيلة فليغرسها — رواه أحمد',action:'ابدأ مشروعاً صغيراً يخدم شباب المسلمين — صفحة تعليمية أو نادي قراءة إسلامي',young:'لنبني أشياء رائعة معاً! نوادي، مسابقات، فيديوهات — كل شيء إسلامي وممتع! 🌱'},
+    en:{title:'Building Islamic Alternatives',desc:'The best defense is building strong and attractive Islamic alternatives in every field: Islamic YouTube channels for children, schools combining academic excellence with faith-based education, Islamic summer camps, scientific and religious competitions. When youth find a vibrant Islamic environment, they do not look for other alternatives. Initiative is better than waiting.',verse:'And say: Work, for Allah will see your deeds, and His Messenger and the believers',verseRef:'At-Tawbah 105',hadith:'If the Hour comes and one of you has a seedling in hand, let them plant it — Ahmad',action:'Start a small project serving Muslim youth — an educational page or an Islamic reading club',young:'Let\'s build amazing things together! Clubs, competitions, videos — everything Islamic and fun! 🌱'},
+    fr:{title:'Construire des Alternatives Islamiques',desc:'La meilleure defense est de construire des alternatives islamiques fortes et attrayantes dans tous les domaines : chaines YouTube islamiques pour enfants, ecoles combinant excellence academique et education spirituelle, camps d\'ete islamiques, competitions scientifiques et religieuses. Quand les jeunes trouvent un environnement islamique dynamique, ils ne cherchent pas d\'autres alternatives. L\'initiative vaut mieux que l\'attente.',verse:'Et dis : Oeuvrez, car Allah verra vos oeuvres, ainsi que Son Messager et les croyants',verseRef:'At-Tawbah 105',hadith:'Si l\'Heure arrive et que l\'un de vous a un plant en main, qu\'il le plante — Ahmad',action:'Lancez un petit projet servant les jeunes musulmans — une page educative ou un club de lecture islamique',young:'Construisons des choses incroyables ensemble ! Clubs, competitions, videos — tout islamique et amusant ! 🌱'}
+  },
+  {
+    id:20, emoji:'🏆',
+    ar:{title:'قصص نجاح المقاومة الثقافية',desc:'عبر التاريخ، نجحت مجتمعات إسلامية كثيرة في مقاومة محاولات التغيير الثقافي والحفاظ على هويتها. من تجربة الجزائر في الحفاظ على العربية رغم مئة وثلاثين عاماً من الاستعمار الفرنسي، إلى نجاح المدارس الإسلامية في ماليزيا وتركيا في بناء جيل واعٍ متمسك بهويته. هذه القصص تثبت أن الإرادة والإيمان أقوى من أي محاولة لتغيير الهوية.',verse:'إِنْ تَنْصُرُوا اللَّهَ يَنْصُرْكُمْ وَيُثَبِّتْ أَقْدَامَكُمْ',verseRef:'محمد ٧',hadith:'لا تزال طائفة من أمتي على الحق ظاهرين لا يضرهم من خالفهم — رواه مسلم',action:'ابحث عن قصة نجاح لمجتمع إسلامي حافظ على هويته وشاركها مع أصدقائك',young:'الأبطال لا يستسلمون! كثير من المسلمين حافظوا على دينهم رغم كل الصعوبات — كن مثلهم! 🏆'},
+    en:{title:'Success Stories of Cultural Resistance',desc:'Throughout history, many Islamic communities have successfully resisted cultural change attempts and preserved their identity. From Algeria\'s experience preserving Arabic despite 130 years of French colonialism, to the success of Islamic schools in Malaysia and Turkey in building a generation that is aware and connected to its identity. These stories prove that willpower and faith are stronger than any attempt to change identity.',verse:'If you support Allah, He will support you and plant firmly your feet',verseRef:'Muhammad 7',hadith:'A group of my Ummah will always remain upon the truth, prevailing, and those who oppose them will not harm them — Muslim',action:'Research a success story of an Islamic community that preserved its identity and share it with your friends',young:'Heroes never give up! Many Muslims preserved their religion despite all difficulties — be like them! 🏆'},
+    fr:{title:'Histoires de Succes de Resistance Culturelle',desc:'A travers l\'histoire, de nombreuses communautes islamiques ont reussi a resister aux tentatives de changement culturel et a preserver leur identite. De l\'experience de l\'Algerie dans la preservation de l\'arabe malgre 130 ans de colonialisme francais, au succes des ecoles islamiques en Malaisie et en Turquie dans la construction d\'une generation consciente et attachee a son identite. Ces histoires prouvent que la volonte et la foi sont plus fortes que toute tentative de changer l\'identite.',verse:'Si vous soutenez Allah, Il vous soutiendra et affermira vos pas',verseRef:'Muhammad 7',hadith:'Un groupe de ma communaute restera toujours sur la verite, prevalant, et ceux qui s\'opposent a eux ne leur nuiront pas — Muslim',action:'Recherchez une histoire de succes d\'une communaute islamique qui a preserve son identite et partagez-la avec vos amis',young:'Les heros n\'abandonnent jamais ! Beaucoup de musulmans ont preserve leur religion malgre toutes les difficultes — sois comme eux ! 🏆'}
   }
 ];
 
@@ -294,6 +324,31 @@ const QUIZ = [
     ar:{q:'أكمل الحديث: "المؤمن القوي خير و... إلى الله من المؤمن الضعيف"',opts:['أقرب','أحب','أعلى','أعز'],correct:1,hint:'حديث عن القوة بكل أنواعها',quran:'الأنفال ٦٠'},
     en:{q:'Complete the hadith: "The strong believer is better and more ... to Allah than the weak believer"',opts:['Near','Beloved','High','Honored'],correct:1,hint:'A hadith about strength in all its forms',quran:'Al-Anfal 60'},
     fr:{q:'Completez le hadith : "Le croyant fort est meilleur et plus ... d\'Allah que le croyant faible"',opts:['Proche','Aime','Eleve','Honore'],correct:1,hint:'Un hadith sur la force sous toutes ses formes',quran:'Al-Anfal 60'}
+  },
+  {
+    ar:{q:'ما أخطر وسيلة تستخدم اليوم للتأثير على عقول الشباب المسلم؟',opts:['الكتب المطبوعة','وسائل التواصل الاجتماعي','المحاضرات الأكاديمية','البريد التقليدي'],correct:1,hint:'المنصات الرقمية وصلت لمليارات الشباب',quran:'الأحزاب ٧٠'},
+    en:{q:'What is the most dangerous tool used today to influence the minds of Muslim youth?',opts:['Printed books','Social media','Academic lectures','Traditional mail'],correct:1,hint:'Digital platforms have reached billions of youth',quran:'Al-Ahzab 70'},
+    fr:{q:'Quel est l\'outil le plus dangereux utilise aujourd\'hui pour influencer les esprits des jeunes musulmans ?',opts:['Les livres imprimes','Les reseaux sociaux','Les conferences academiques','Le courrier traditionnel'],correct:1,hint:'Les plateformes numeriques ont atteint des milliards de jeunes',quran:'Al-Ahzab 70'}
+  },
+  {
+    ar:{q:'أكمل الآية: "إِنْ تَنْصُرُوا اللَّهَ ..." وَيُثَبِّتْ أَقْدَامَكُمْ',opts:['يرزقكم','يهديكم','ينصركم','يعلّمكم'],correct:2,hint:'وعد الله لمن ينصر دينه',quran:'محمد ٧'},
+    en:{q:'Complete the verse: "If you support Allah, He will ... you and plant firmly your feet"',opts:['Provide for','Guide','Support','Teach'],correct:2,hint:'Allah\'s promise to those who support His religion',quran:'Muhammad 7'},
+    fr:{q:'Completez le verset : "Si vous soutenez Allah, Il vous ... et affermira vos pas"',opts:['Pourvoira','Guidera','Soutiendra','Enseignera'],correct:2,hint:'La promesse d\'Allah a ceux qui soutiennent Sa religion',quran:'Muhammad 7'}
+  },
+  {
+    ar:{q:'ما أول خطوة لمقاومة التلاعب الإعلامي؟',opts:['مقاطعة كل وسائل الإعلام','الوعي بآليات التلاعب','إنشاء قنوات جديدة','تجاهل الأخبار تماماً'],correct:1,hint:'المعرفة هي أول سلاح',quran:'النساء ٨٣'},
+    en:{q:'What is the first step to resist media manipulation?',opts:['Boycotting all media','Awareness of manipulation mechanisms','Creating new channels','Ignoring news completely'],correct:1,hint:'Knowledge is the first weapon',quran:'An-Nisa 83'},
+    fr:{q:'Quelle est la premiere etape pour resister a la manipulation mediatique ?',opts:['Boycotter tous les medias','La conscience des mecanismes de manipulation','Creer de nouvelles chaines','Ignorer completement les nouvelles'],correct:1,hint:'La connaissance est la premiere arme',quran:'An-Nisa 83'}
+  },
+  {
+    ar:{q:'أكمل الحديث: "كل مولود يولد على الفطرة فأبواه ..."',opts:['يعلّمانه ويثقّفانه','يهوّدانه أو ينصّرانه أو يمجّسانه','يحبّانه ويكرمانه','يطعمانه ويسقيانه'],correct:1,hint:'دور الوالدين في توجيه الأبناء',quran:'الأحزاب ٧٠'},
+    en:{q:'Complete the hadith: "Every child is born upon the fitrah, then their parents..."',opts:['Educate and enlighten them','Make them Jewish, Christian, or Zoroastrian','Love and honor them','Feed and hydrate them'],correct:1,hint:'The role of parents in guiding children',quran:'Al-Ahzab 70'},
+    fr:{q:'Completez le hadith : "Chaque enfant nait selon la fitrah, puis ses parents..."',opts:['L\'eduquent et l\'eclairent','En font un juif, un chretien ou un zoroastrien','L\'aiment et l\'honorent','Le nourrissent et l\'abreuvent'],correct:1,hint:'Le role des parents dans l\'orientation des enfants',quran:'Al-Ahzab 70'}
+  },
+  {
+    ar:{q:'ما البلد الذي حافظ على العربية رغم ١٣٠ عاماً من الاستعمار الفرنسي؟',opts:['المغرب','تونس','الجزائر','موريتانيا'],correct:2,hint:'أطول استعمار فرنسي في شمال أفريقيا',quran:'محمد ٧'},
+    en:{q:'Which country preserved Arabic despite 130 years of French colonialism?',opts:['Morocco','Tunisia','Algeria','Mauritania'],correct:2,hint:'The longest French colonialism in North Africa',quran:'Muhammad 7'},
+    fr:{q:'Quel pays a preserve l\'arabe malgre 130 ans de colonialisme francais ?',opts:['Le Maroc','La Tunisie','L\'Algerie','La Mauritanie'],correct:2,hint:'Le plus long colonialisme francais en Afrique du Nord',quran:'Muhammad 7'}
   }
 ];
 
@@ -313,7 +368,13 @@ const DUAS = [
     fr:{label:'Dua de Confiance',text:'حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ',tr:'Allah me suffit ; il n\'y a de dieu que Lui. Je m\'en remets a Lui, Seigneur du Trone immense — At-Tawbah 129'} },
   { ar:{label:'دعاء النصرة',text:'رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ أَقْدَامَنَا وَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ',tr:'البقرة ٢٥٠'},
     en:{label:'Dua for Victory',text:'رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ أَقْدَامَنَا وَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ',tr:'Our Lord, pour upon us patience, plant firmly our feet, and give us victory — Al-Baqarah 250'},
-    fr:{label:'Dua pour la Victoire',text:'رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ أَقْدَامَنَا وَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ',tr:'Notre Seigneur, deverse sur nous la patience, affermis nos pas et donne-nous la victoire — Al-Baqarah 250'} }
+    fr:{label:'Dua pour la Victoire',text:'رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ أَقْدَامَنَا وَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ',tr:'Notre Seigneur, deverse sur nous la patience, affermis nos pas et donne-nous la victoire — Al-Baqarah 250'} },
+  { ar:{label:'دعاء حفظ الذرية',text:'رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا',tr:'الفرقان ٧٤'},
+    en:{label:'Dua for Offspring',text:'رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا',tr:'Our Lord, grant us from our spouses and offspring comfort to our eyes and make us leaders for the righteous — Al-Furqan 74'},
+    fr:{label:'Dua pour la Descendance',text:'رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا',tr:'Notre Seigneur, accorde-nous en nos epouses et descendants la fraicheur des yeux et fais de nous un guide pour les pieux — Al-Furqan 74'} },
+  { ar:{label:'دعاء التثبيت',text:'يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ',tr:'رواه الترمذي'},
+    en:{label:'Dua for Firm Heart',text:'يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ',tr:'O Turner of hearts, make my heart firm upon Your religion — Tirmidhi'},
+    fr:{label:'Dua pour un Coeur Ferme',text:'يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ',tr:'O Celui qui retourne les coeurs, affermis mon coeur sur Ta religion — Tirmidhi'} }
 ];
 
 // ═══════════════ XP / BADGE SYSTEM ═══════════════
@@ -444,9 +505,9 @@ function renderAbout() {
 // ═══════════════ RENDER: HELP ═══════════════
 function renderHelp() {
   const help = {
-    ar: [{title:'⚠️ تنبيه',body:'لست عالماً. هذا جهد متواضع لنشر حكمة الشيخ الغزالي بطريقة تفاعلية.'},{title:'📚 المصادر',body:'كتاب "صيحة تحذير من دعاة التنصير" للشيخ محمد الغزالي، القرآن الكريم، السنة النبوية.'},{title:'✨ المميزات',body:'ثلاث لغات (عربي/إنجليزي/فرنسي)، ٣ أنماط، ١٥ بطاقة، مسابقة تفاعلية، نظام نقاط وشارات، وضعان للأعمار.'},{title:'🌟 وضع مستكشف صغير',body:'للأطفال ٧-١٢ سنة — نصوص مبسطة بالإيموجي، خط أكبر.'},{title:'📖 وضع باحث شاب',body:'للشباب ١٣+ — نصوص كاملة مع آيات وأحاديث وتحليل.'}],
-    en: [{title:'⚠️ Disclaimer',body:'I am not a scholar. This is a humble effort to share Sheikh al-Ghazali\'s wisdom interactively.'},{title:'📚 Sources',body:'"A Warning Cry Against Missionaries" by Sheikh Mohammed al-Ghazali, the Holy Quran, Prophetic Sunnah.'},{title:'✨ Features',body:'Three languages (AR/EN/FR), 3 themes, 15 cards, interactive quiz, XP and badges system, 2 age modes.'},{title:'🌟 Young Explorer',body:'For kids 7-12 — simplified text with emojis, larger font.'},{title:'📖 Teen Scholar',body:'For teens 13+ — full text with verses, hadiths, and analysis.'}],
-    fr: [{title:'⚠️ Avertissement',body:'Je ne suis pas un savant. C\'est un effort humble pour partager la sagesse du Sheikh al-Ghazali.'},{title:'📚 Sources',body:'"Un Cri d\'Alerte contre les Missionnaires" par Sheikh Mohammed al-Ghazali, le Saint Coran, la Sunnah.'},{title:'✨ Fonctionnalites',body:'Trois langues (AR/EN/FR), 3 themes, 15 cartes, quiz interactif, systeme XP et badges, 2 modes d\'age.'},{title:'🌟 Jeune Explorateur',body:'Pour enfants 7-12 ans — texte simplifie avec emojis, police plus grande.'},{title:'📖 Jeune Chercheur',body:'Pour ados 13+ — texte complet avec versets, hadiths et analyse.'}]
+    ar: [{title:'⚠️ تنبيه',body:'لست عالماً. هذا جهد متواضع لنشر حكمة الشيخ الغزالي بطريقة تفاعلية.'},{title:'📚 المصادر',body:'كتاب "صيحة تحذير من دعاة التنصير" للشيخ محمد الغزالي، القرآن الكريم، السنة النبوية.'},{title:'✨ المميزات',body:'ثلاث لغات (عربي/إنجليزي/فرنسي)، ٣ أنماط، ٢٠ بطاقة، مسابقة تفاعلية، نظام نقاط وشارات، وضعان للأعمار.'},{title:'🌟 وضع مستكشف صغير',body:'للأطفال ٧-١٢ سنة — نصوص مبسطة بالإيموجي، خط أكبر.'},{title:'📖 وضع باحث شاب',body:'للشباب ١٣+ — نصوص كاملة مع آيات وأحاديث وتحليل.'}],
+    en: [{title:'⚠️ Disclaimer',body:'I am not a scholar. This is a humble effort to share Sheikh al-Ghazali\'s wisdom interactively.'},{title:'📚 Sources',body:'"A Warning Cry Against Missionaries" by Sheikh Mohammed al-Ghazali, the Holy Quran, Prophetic Sunnah.'},{title:'✨ Features',body:'Three languages (AR/EN/FR), 3 themes, 20 cards, interactive quiz, XP and badges system, 2 age modes.'},{title:'🌟 Young Explorer',body:'For kids 7-12 — simplified text with emojis, larger font.'},{title:'📖 Teen Scholar',body:'For teens 13+ — full text with verses, hadiths, and analysis.'}],
+    fr: [{title:'⚠️ Avertissement',body:'Je ne suis pas un savant. C\'est un effort humble pour partager la sagesse du Sheikh al-Ghazali.'},{title:'📚 Sources',body:'"Un Cri d\'Alerte contre les Missionnaires" par Sheikh Mohammed al-Ghazali, le Saint Coran, la Sunnah.'},{title:'✨ Fonctionnalites',body:'Trois langues (AR/EN/FR), 3 themes, 20 cartes, quiz interactif, systeme XP et badges, 2 modes d\'age.'},{title:'🌟 Jeune Explorateur',body:'Pour enfants 7-12 ans — texte simplifie avec emojis, police plus grande.'},{title:'📖 Jeune Chercheur',body:'Pour ados 13+ — texte complet avec versets, hadiths et analyse.'}]
   };
   document.getElementById('helpBody').innerHTML = help[lang].map(h => `<div class="help-item"><div class="help-item-title">${h.title}</div><div>${h.body}</div></div>`).join('');
 }
@@ -456,7 +517,7 @@ function renderDuas() { document.getElementById('duaPanelContent').innerHTML = D
 
 // ═══════════════ TICKER ═══════════════
 function renderTicker() {
-  const tips = { ar:['📖 اقرأ بطاقة جديدة كل يوم','🏆 اجمع النقاط واربح الشارات','🌟 جرب وضع المستكشف الصغير','🤲 لا تنسَ دعاء الثبات والحماية','⭐ أكمل ١٥ بطاقة لتصبح خبيراً'], en:['📖 Read a new card every day','🏆 Collect points and earn badges','🌟 Try Young Explorer mode','🤲 Don\'t forget duas for steadfastness','⭐ Complete all 15 cards to become an Expert'], fr:['📖 Lisez une nouvelle carte chaque jour','🏆 Collectez des points et gagnez des badges','🌟 Essayez le mode Jeune Explorateur','🤲 N\'oubliez pas les duas pour la fermete','⭐ Completez les 15 cartes pour devenir Expert'] };
+  const tips = { ar:['📖 اقرأ بطاقة جديدة كل يوم','🏆 اجمع النقاط واربح الشارات','🌟 جرب وضع المستكشف الصغير','🤲 لا تنسَ دعاء الثبات والحماية','⭐ أكمل ٢٠ بطاقة لتصبح خبيراً'], en:['📖 Read a new card every day','🏆 Collect points and earn badges','🌟 Try Young Explorer mode','🤲 Don\'t forget duas for steadfastness','⭐ Complete all 20 cards to become an Expert'], fr:['📖 Lisez une nouvelle carte chaque jour','🏆 Collectez des points et gagnez des badges','🌟 Essayez le mode Jeune Explorateur','🤲 N\'oubliez pas les duas pour la fermete','⭐ Completez les 20 cartes pour devenir Expert'] };
   const items = tips[lang]; const doubled = [...items, ...items]; const ticker = document.getElementById('tickerText');
   ticker.innerHTML = doubled.map(t => `<span class="tc">&nbsp;&nbsp;${t}&nbsp;&nbsp;•</span>`).join('');
   ticker.style.animation = `tickerMarquee ${items.length * 6}s linear infinite`;
@@ -497,6 +558,650 @@ function initTypewriter() { const dailyTitle = document.querySelector('.daily-ca
 
 // ═══════════════ SWIPE GESTURES ═══════════════
 function initSwipeGestures() { let touchStartX = 0, touchStartY = 0; const tabOrder = ['home','cards','quiz','progress','about']; document.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].screenX; touchStartY = e.changedTouches[0].screenY; }, { passive: true }); document.addEventListener('touchend', e => { const dx = e.changedTouches[0].screenX - touchStartX; const dy = e.changedTouches[0].screenY - touchStartY; if (Math.abs(dx) < 80 || Math.abs(dy) > Math.abs(dx) * 0.5) return; const current = tabOrder.findIndex(t => { const p = document.getElementById('panel-'+t); return p && p.classList.contains('active'); }); if (current < 0) return; const isRTL = document.documentElement.dir === 'rtl'; let next; if ((dx > 0 && !isRTL) || (dx < 0 && isRTL)) next = current - 1; else next = current + 1; if (next >= 0 && next < tabOrder.length) switchTab(tabOrder[next]); }, { passive: true }); }
+
+// ═══════════════ ENRICHED CARD INSIGHTS ═══════════════
+// Additional detailed insights for each card topic — used in expanded card views
+const CARD_INSIGHTS = {
+  1: {
+    ar: {
+      keyFacts: [
+        'تنفق بعض المنظمات مليارات الدولارات سنوياً على برامج الإغاثة المشروطة',
+        'أكثر المناطق المستهدفة: غرب أفريقيا وجنوب شرق آسيا والقرن الأفريقي',
+        'الشيخ الغزالي وثّق حالات في كتابه من مصر والسودان ونيجيريا',
+        'بناء مؤسسات وقفية إسلامية هو الحل المستدام لمواجهة استغلال الفقر'
+      ],
+      historicalContext: 'ارتبط استغلال الفقر تاريخياً بحركة الاستعمار في القرنين التاسع عشر والعشرين حيث كانت المدارس والمستشفيات أدوات للتغلغل الثقافي في المجتمعات المسلمة الفقيرة.'
+    },
+    en: {
+      keyFacts: [
+        'Some organizations spend billions of dollars annually on conditional aid programs',
+        'Most targeted areas: West Africa, Southeast Asia, and the Horn of Africa',
+        'Sheikh al-Ghazali documented cases in his book from Egypt, Sudan, and Nigeria',
+        'Building Islamic endowment institutions is the sustainable solution to counter poverty exploitation'
+      ],
+      historicalContext: 'Poverty exploitation has historically been linked to the colonial movement in the 19th and 20th centuries, where schools and hospitals were tools for cultural penetration in poor Muslim societies.'
+    },
+    fr: {
+      keyFacts: [
+        'Certaines organisations depensent des milliards de dollars par an en programmes d\'aide conditionnelle',
+        'Zones les plus ciblees : Afrique de l\'Ouest, Asie du Sud-Est et Corne de l\'Afrique',
+        'Le Sheikh al-Ghazali a documente des cas dans son livre d\'Egypte, du Soudan et du Nigeria',
+        'La construction d\'institutions de waqf islamiques est la solution durable contre l\'exploitation de la pauvrete'
+      ],
+      historicalContext: 'L\'exploitation de la pauvrete a historiquement ete liee au mouvement colonial aux 19e et 20e siecles, ou les ecoles et les hopitaux etaient des outils de penetration culturelle dans les societes musulmanes pauvres.'
+    }
+  },
+  2: {
+    ar: {
+      keyFacts: [
+        'بعض المدارس الأجنبية تفرض مناهج تتعارض مع القيم الإسلامية',
+        'التعليم الإسلامي الجيد يجمع بين العلوم الحديثة والتربية الإيمانية',
+        'الجامعات الإسلامية الرائدة أثبتت إمكانية التفوق الأكاديمي مع الحفاظ على الهوية',
+        'الشيخ الغزالي يؤكد أن العلم والإيمان لا يتعارضان بل يتكاملان'
+      ],
+      historicalContext: 'أنشئت مئات المدارس الأجنبية في البلاد الإسلامية خلال فترة الاستعمار المباشر وبعده، وكان كثير منها يهدف لتخريج أجيال منبتّة عن هويتها.'
+    },
+    en: {
+      keyFacts: [
+        'Some foreign schools impose curricula that conflict with Islamic values',
+        'Good Islamic education combines modern sciences with faith-based nurturing',
+        'Leading Islamic universities have proven academic excellence while preserving identity',
+        'Sheikh al-Ghazali affirms that knowledge and faith do not conflict but complement each other'
+      ],
+      historicalContext: 'Hundreds of foreign schools were established in Muslim countries during and after direct colonialism, many aimed at producing generations disconnected from their identity.'
+    },
+    fr: {
+      keyFacts: [
+        'Certaines ecoles etrangeres imposent des programmes qui contredisent les valeurs islamiques',
+        'Une bonne education islamique combine sciences modernes et education spirituelle',
+        'Les universites islamiques de premier plan ont prouve l\'excellence academique tout en preservant l\'identite',
+        'Le Sheikh al-Ghazali affirme que le savoir et la foi ne s\'opposent pas mais se completent'
+      ],
+      historicalContext: 'Des centaines d\'ecoles etrangeres ont ete creees dans les pays musulmans pendant et apres le colonialisme direct, beaucoup visant a produire des generations deconnectees de leur identite.'
+    }
+  },
+  3: {
+    ar: {
+      keyFacts: [
+        'المستشفيات المشروطة تنتشر في المناطق النائية التي تفتقر للخدمات الصحية',
+        'الحل الإسلامي يتمثل في بناء مستشفيات ومراكز صحية تخدم الجميع بلا شروط',
+        'نظام الوقف في الإسلام أسس أول مستشفى مجاني في التاريخ',
+        'منظمات الإغاثة الطبية الإسلامية تثبت إمكانية الخدمة المجانية النقية'
+      ],
+      historicalContext: 'في القرن التاسع عشر انتشرت المستشفيات الإرسالية في أفريقيا والشرق الأوسط كأداة أساسية للتغيير الثقافي والعقدي في المجتمعات المسلمة.'
+    },
+    en: {
+      keyFacts: [
+        'Conditional hospitals spread in remote areas lacking health services',
+        'The Islamic solution is building hospitals and health centers serving everyone without conditions',
+        'The Islamic endowment system established the first free hospital in history',
+        'Islamic medical relief organizations prove the possibility of pure free service'
+      ],
+      historicalContext: 'In the 19th century, missionary hospitals spread across Africa and the Middle East as a primary tool for cultural and ideological change in Muslim societies.'
+    },
+    fr: {
+      keyFacts: [
+        'Les hopitaux conditionnes se repandent dans les zones reculees manquant de services de sante',
+        'La solution islamique est de construire des hopitaux servant tout le monde sans conditions',
+        'Le systeme de waqf islamique a fonde le premier hopital gratuit de l\'histoire',
+        'Les organisations de secours medical islamiques prouvent la possibilite d\'un service gratuit pur'
+      ],
+      historicalContext: 'Au 19e siecle, les hopitaux missionnaires se sont repandus en Afrique et au Moyen-Orient comme outil principal de changement culturel et ideologique dans les societes musulmanes.'
+    }
+  },
+  16: {
+    ar: {
+      keyFacts: [
+        'تتحكم عدد محدود من الشركات الكبرى في معظم وسائل الإعلام العالمية',
+        'الصور النمطية السلبية عن الإسلام تتكرر في الأفلام والمسلسلات والأخبار',
+        'دراسات أكاديمية أثبتت التحيز المنهجي ضد المسلمين في التغطية الإعلامية الغربية',
+        'بناء إعلام إسلامي محترف ومهني هو ضرورة حضارية ملحّة'
+      ],
+      historicalContext: 'منذ أحداث الحادي عشر من سبتمبر تضاعفت التغطية السلبية للإسلام في وسائل الإعلام الغربية عشرات المرات بينما تُهمّش القصص الإيجابية للمسلمين.'
+    },
+    en: {
+      keyFacts: [
+        'A limited number of large corporations control most of the world\'s media',
+        'Negative stereotypes about Islam are repeated in films, series, and news',
+        'Academic studies have proven systematic bias against Muslims in Western media coverage',
+        'Building professional Islamic media is an urgent civilizational necessity'
+      ],
+      historicalContext: 'Since the events of September 11, negative coverage of Islam in Western media has multiplied dozens of times while positive stories about Muslims are marginalized.'
+    },
+    fr: {
+      keyFacts: [
+        'Un nombre limite de grandes entreprises controle la plupart des medias mondiaux',
+        'Les stereotypes negatifs sur l\'Islam sont repetes dans les films, les series et les nouvelles',
+        'Des etudes academiques ont prouve le biais systematique contre les musulmans dans la couverture mediatique occidentale',
+        'Construire des medias islamiques professionnels est une necessite civilisationnelle urgente'
+      ],
+      historicalContext: 'Depuis les evenements du 11 septembre, la couverture negative de l\'Islam dans les medias occidentaux a ete multipliee par dizaines tandis que les histoires positives sur les musulmans sont marginalisees.'
+    }
+  },
+  17: {
+    ar: {
+      keyFacts: [
+        'يقضي المراهق المسلم في المتوسط أكثر من ٤ ساعات يومياً على وسائل التواصل',
+        'خوارزميات المنصات تعزز المحتوى المثير للجدل وتخفي المحتوى البنّاء',
+        'حسابات وهمية كثيرة تستهدف الشباب المسلم بمحتوى يبعدهم عن هويتهم',
+        'المحتوى الإسلامي الجذاب على المنصات الرقمية يحقق ملايين المشاهدات'
+      ],
+      historicalContext: 'ظهرت وسائل التواصل الاجتماعي في العقد الأول من الألفية الثالثة وتحولت سريعاً إلى أقوى أداة تأثير على عقول الشباب في التاريخ البشري.'
+    },
+    en: {
+      keyFacts: [
+        'The average Muslim teenager spends more than 4 hours daily on social media',
+        'Platform algorithms amplify controversial content and hide constructive material',
+        'Many fake accounts target Muslim youth with content that distances them from their identity',
+        'Attractive Islamic content on digital platforms achieves millions of views'
+      ],
+      historicalContext: 'Social media emerged in the first decade of the third millennium and quickly became the most powerful tool for influencing young minds in human history.'
+    },
+    fr: {
+      keyFacts: [
+        'L\'adolescent musulman moyen passe plus de 4 heures par jour sur les reseaux sociaux',
+        'Les algorithmes des plateformes amplifient le contenu controverse et cachent le materiel constructif',
+        'De nombreux faux comptes ciblent les jeunes musulmans avec du contenu qui les eloigne de leur identite',
+        'Le contenu islamique attrayant sur les plateformes numeriques atteint des millions de vues'
+      ],
+      historicalContext: 'Les reseaux sociaux sont apparus dans la premiere decennie du troisieme millenaire et sont rapidement devenus l\'outil le plus puissant pour influencer les esprits des jeunes dans l\'histoire humaine.'
+    }
+  },
+  18: {
+    ar: {
+      keyFacts: [
+        'الأطفال دون سن العاشرة يتعرضون لمحتوى رقمي بلا رقابة كافية',
+        'بعض الرسوم المتحركة تحمل رسائل خفية تتعارض مع القيم الإسلامية',
+        'تطبيقات الرقابة الأبوية أداة ضرورية لكنها لا تغني عن الحوار والتوجيه',
+        'صناعة محتوى إسلامي للأطفال تنمو بسرعة وتحتاج لمزيد من الدعم والاستثمار'
+      ],
+      historicalContext: 'مع انتشار الأجهزة اللوحية بين الأطفال منذ عام ٢٠١٠ تضاعف التعرض للمحتوى الرقمي غير المراقب مما يتطلب استراتيجيات حماية جديدة.'
+    },
+    en: {
+      keyFacts: [
+        'Children under ten are exposed to digital content without adequate oversight',
+        'Some cartoons carry hidden messages that conflict with Islamic values',
+        'Parental control apps are a necessary tool but do not replace dialogue and guidance',
+        'Islamic children\'s content industry is growing rapidly and needs more support and investment'
+      ],
+      historicalContext: 'With the spread of tablets among children since 2010, exposure to unmonitored digital content has doubled, requiring new protection strategies.'
+    },
+    fr: {
+      keyFacts: [
+        'Les enfants de moins de dix ans sont exposes a du contenu numerique sans surveillance adequate',
+        'Certains dessins animes portent des messages caches qui contredisent les valeurs islamiques',
+        'Les applications de controle parental sont un outil necessaire mais ne remplacent pas le dialogue',
+        'L\'industrie du contenu islamique pour enfants croit rapidement et a besoin de plus de soutien'
+      ],
+      historicalContext: 'Avec la diffusion des tablettes parmi les enfants depuis 2010, l\'exposition au contenu numerique non surveille a double, necessitant de nouvelles strategies de protection.'
+    }
+  },
+  19: {
+    ar: {
+      keyFacts: [
+        'المشاريع الإسلامية الناجحة تثبت أن البديل الإسلامي ممكن ومنافس',
+        'تطبيقات القرآن الإسلامية من أكثر التطبيقات تحميلاً في العالم',
+        'المدارس الإسلامية الرائدة تحقق نتائج أكاديمية متفوقة',
+        'المحتوى الإسلامي الرقمي يصل لملايين المشاهدين حول العالم'
+      ],
+      historicalContext: 'بدأت حركة بناء البدائل الإسلامية في النصف الثاني من القرن العشرين واكتسبت زخماً كبيراً مع الثورة الرقمية في الألفية الثالثة.'
+    },
+    en: {
+      keyFacts: [
+        'Successful Islamic projects prove that the Islamic alternative is possible and competitive',
+        'Islamic Quran apps are among the most downloaded applications in the world',
+        'Leading Islamic schools achieve outstanding academic results',
+        'Islamic digital content reaches millions of viewers around the world'
+      ],
+      historicalContext: 'The movement to build Islamic alternatives began in the second half of the 20th century and gained significant momentum with the digital revolution in the third millennium.'
+    },
+    fr: {
+      keyFacts: [
+        'Les projets islamiques reussis prouvent que l\'alternative islamique est possible et competitive',
+        'Les applications coraniques islamiques sont parmi les plus telechargees au monde',
+        'Les ecoles islamiques de pointe obtiennent des resultats academiques remarquables',
+        'Le contenu numerique islamique atteint des millions de spectateurs dans le monde'
+      ],
+      historicalContext: 'Le mouvement de construction d\'alternatives islamiques a commence dans la seconde moitie du 20e siecle et a pris un elan considerable avec la revolution numerique au troisieme millenaire.'
+    }
+  },
+  20: {
+    ar: {
+      keyFacts: [
+        'الجزائر حافظت على هويتها العربية والإسلامية رغم ١٣٠ عاماً من الاستعمار الفرنسي',
+        'ماليزيا نجحت في بناء نظام تعليمي يجمع بين الحداثة والأصالة',
+        'تركيا استعادت هويتها الإسلامية بعد عقود من التغريب القسري',
+        'حركات التحفيظ القرآنية في أفريقيا حافظت على القرآن في أصعب الظروف'
+      ],
+      historicalContext: 'عبر التاريخ أثبتت الشعوب المسلمة قدرتها على الصمود والمقاومة والحفاظ على هويتها مهما طال أمد المحاولات لتغييرها.'
+    },
+    en: {
+      keyFacts: [
+        'Algeria preserved its Arab and Islamic identity despite 130 years of French colonialism',
+        'Malaysia succeeded in building an educational system combining modernity and authenticity',
+        'Turkey recovered its Islamic identity after decades of forced westernization',
+        'Quran memorization movements in Africa preserved the Quran under the most difficult conditions'
+      ],
+      historicalContext: 'Throughout history, Muslim peoples have proven their ability to endure, resist, and preserve their identity no matter how long the attempts to change them lasted.'
+    },
+    fr: {
+      keyFacts: [
+        'L\'Algerie a preserve son identite arabe et islamique malgre 130 ans de colonialisme francais',
+        'La Malaisie a reussi a construire un systeme educatif combinant modernite et authenticite',
+        'La Turquie a retrouve son identite islamique apres des decennies d\'occidentalisation forcee',
+        'Les mouvements de memorisation du Coran en Afrique ont preserve le Coran dans les conditions les plus difficiles'
+      ],
+      historicalContext: 'A travers l\'histoire, les peuples musulmans ont prouve leur capacite a endurer, resister et preserver leur identite quelle que soit la duree des tentatives de la changer.'
+    }
+  }
+};
+
+// ═══════════════ EXPANDED CARD RENDERING ═══════════════
+function getCardInsight(cardId) {
+  const insight = CARD_INSIGHTS[cardId];
+  if (!insight || !insight[lang]) return '';
+  const data = insight[lang];
+  const t = T[lang];
+  let html = '';
+  if (data.keyFacts && data.keyFacts.length > 0) {
+    const factsTitle = lang === 'ar' ? 'حقائق مهمة' : lang === 'fr' ? 'Faits importants' : 'Key Facts';
+    html += `<div class="card-insight-section">`;
+    html += `<div class="card-insight-title">📌 ${factsTitle}</div>`;
+    html += `<ul class="card-insight-list">`;
+    data.keyFacts.forEach(fact => {
+      html += `<li>${fact}</li>`;
+    });
+    html += `</ul></div>`;
+  }
+  if (data.historicalContext) {
+    const contextTitle = lang === 'ar' ? 'السياق التاريخي' : lang === 'fr' ? 'Contexte historique' : 'Historical Context';
+    html += `<div class="card-insight-section">`;
+    html += `<div class="card-insight-title">📜 ${contextTitle}</div>`;
+    html += `<div class="card-insight-text">${data.historicalContext}</div>`;
+    html += `</div>`;
+  }
+  return html;
+}
+
+// ═══════════════ MEDIA LITERACY TOOLKIT ═══════════════
+const MEDIA_CHECKLIST = {
+  ar: {
+    title: 'قائمة فحص الأخبار',
+    items: [
+      {icon: '🔍', text: 'تحقق من المصدر — هل هو موثوق ومعروف؟'},
+      {icon: '📅', text: 'تحقق من التاريخ — هل الخبر حديث أم قديم أُعيد نشره؟'},
+      {icon: '🖼️', text: 'تحقق من الصور — هل هي حقيقية أم معدّلة أم من سياق آخر؟'},
+      {icon: '📰', text: 'ابحث عن مصادر أخرى — هل وسائل إعلام أخرى نشرت نفس الخبر؟'},
+      {icon: '🧠', text: 'فكّر نقدياً — ما الهدف من نشر هذا الخبر؟ من المستفيد؟'},
+      {icon: '👤', text: 'تحقق من الكاتب — هل هو صحفي حقيقي أم حساب وهمي؟'},
+      {icon: '📊', text: 'افحص الأرقام — هل الإحصائيات المذكورة دقيقة وموثقة؟'},
+      {icon: '💬', text: 'اقرأ ما بعد العنوان — العناوين المثيرة قد تكون مضللة'}
+    ]
+  },
+  en: {
+    title: 'News Verification Checklist',
+    items: [
+      {icon: '🔍', text: 'Check the source — is it reliable and well-known?'},
+      {icon: '📅', text: 'Check the date — is the news recent or old and republished?'},
+      {icon: '🖼️', text: 'Check the images — are they real, edited, or from another context?'},
+      {icon: '📰', text: 'Search for other sources — did other media publish the same news?'},
+      {icon: '🧠', text: 'Think critically — what is the purpose of publishing this news? Who benefits?'},
+      {icon: '👤', text: 'Check the author — is it a real journalist or a fake account?'},
+      {icon: '📊', text: 'Examine the numbers — are the statistics mentioned accurate and documented?'},
+      {icon: '💬', text: 'Read beyond the headline — sensational headlines can be misleading'}
+    ]
+  },
+  fr: {
+    title: 'Liste de Verification des Nouvelles',
+    items: [
+      {icon: '🔍', text: 'Verifiez la source — est-elle fiable et connue ?'},
+      {icon: '📅', text: 'Verifiez la date — la nouvelle est-elle recente ou ancienne et republicee ?'},
+      {icon: '🖼️', text: 'Verifiez les images — sont-elles reelles, editees ou d\'un autre contexte ?'},
+      {icon: '📰', text: 'Cherchez d\'autres sources — d\'autres medias ont-ils publie la meme nouvelle ?'},
+      {icon: '🧠', text: 'Pensez de maniere critique — quel est le but de publier cette nouvelle ? Qui en beneficie ?'},
+      {icon: '👤', text: 'Verifiez l\'auteur — est-ce un vrai journaliste ou un faux compte ?'},
+      {icon: '📊', text: 'Examinez les chiffres — les statistiques mentionnees sont-elles precises et documentees ?'},
+      {icon: '💬', text: 'Lisez au-dela du titre — les titres sensationnels peuvent etre trompeurs'}
+    ]
+  }
+};
+
+function renderMediaChecklist() {
+  const data = MEDIA_CHECKLIST[lang];
+  if (!data) return '';
+  let html = `<div class="media-checklist">`;
+  html += `<h3 class="checklist-title">${data.title}</h3>`;
+  data.items.forEach(item => {
+    html += `<div class="checklist-item">${item.icon} ${item.text}</div>`;
+  });
+  html += `</div>`;
+  return html;
+}
+
+// ═══════════════ DIGITAL SAFETY TIPS ═══════════════
+const DIGITAL_SAFETY = {
+  ar: {
+    title: 'نصائح الأمان الرقمي للأسرة المسلمة',
+    categories: [
+      {
+        name: 'للأطفال (٥-١٢ سنة)',
+        tips: [
+          'استخدم تطبيقات الرقابة الأبوية على جميع الأجهزة',
+          'حدد وقتاً يومياً محدوداً لاستخدام الشاشات',
+          'شاهد المحتوى مع أطفالك وناقشه معهم',
+          'وفّر بدائل إسلامية جذابة: قصص أنبياء، تطبيقات قرآنية',
+          'علّمهم قاعدة: لا تتحدث مع الغرباء على الإنترنت'
+        ]
+      },
+      {
+        name: 'للمراهقين (١٣-١٨ سنة)',
+        tips: [
+          'حوار مفتوح ومستمر عن المخاطر الرقمية',
+          'علّمهم التفكير النقدي وتحليل المحتوى',
+          'شجعهم على متابعة محتوى إسلامي عالي الجودة',
+          'ناقش معهم قضايا الخصوصية والبصمة الرقمية',
+          'كن قدوة في استخدامك لوسائل التواصل'
+        ]
+      },
+      {
+        name: 'للوالدين',
+        tips: [
+          'تعلّم استخدام المنصات التي يستخدمها أبناؤك',
+          'ضع الأجهزة في أماكن مشتركة لا في غرف مغلقة',
+          'أنشئ قواعد أسرية واضحة لاستخدام التكنولوجيا',
+          'خصص وقتاً يومياً بلا شاشات للحوار الأسري',
+          'تعرّف على علامات التأثر السلبي بالمحتوى الرقمي'
+        ]
+      }
+    ]
+  },
+  en: {
+    title: 'Digital Safety Tips for the Muslim Family',
+    categories: [
+      {
+        name: 'For Children (5-12 years)',
+        tips: [
+          'Use parental control apps on all devices',
+          'Set a limited daily screen time',
+          'Watch content with your children and discuss it',
+          'Provide attractive Islamic alternatives: prophet stories, Quran apps',
+          'Teach them the rule: do not talk to strangers online'
+        ]
+      },
+      {
+        name: 'For Teenagers (13-18 years)',
+        tips: [
+          'Open and continuous dialogue about digital risks',
+          'Teach them critical thinking and content analysis',
+          'Encourage them to follow high-quality Islamic content',
+          'Discuss privacy and digital footprint issues',
+          'Be a role model in your use of social media'
+        ]
+      },
+      {
+        name: 'For Parents',
+        tips: [
+          'Learn to use the platforms your children use',
+          'Place devices in shared areas, not closed rooms',
+          'Create clear family rules for technology use',
+          'Dedicate daily screen-free time for family dialogue',
+          'Learn the signs of negative digital content influence'
+        ]
+      }
+    ]
+  },
+  fr: {
+    title: 'Conseils de Securite Numerique pour la Famille Musulmane',
+    categories: [
+      {
+        name: 'Pour les Enfants (5-12 ans)',
+        tips: [
+          'Utilisez des applications de controle parental sur tous les appareils',
+          'Fixez un temps d\'ecran quotidien limite',
+          'Regardez le contenu avec vos enfants et discutez-en',
+          'Fournissez des alternatives islamiques attrayantes : histoires de prophetes, applications coraniques',
+          'Enseignez-leur la regle : ne parle pas aux inconnus en ligne'
+        ]
+      },
+      {
+        name: 'Pour les Adolescents (13-18 ans)',
+        tips: [
+          'Dialogue ouvert et continu sur les risques numeriques',
+          'Enseignez-leur la pensee critique et l\'analyse du contenu',
+          'Encouragez-les a suivre du contenu islamique de haute qualite',
+          'Discutez des questions de confidentialite et d\'empreinte numerique',
+          'Soyez un modele dans votre utilisation des reseaux sociaux'
+        ]
+      },
+      {
+        name: 'Pour les Parents',
+        tips: [
+          'Apprenez a utiliser les plateformes que vos enfants utilisent',
+          'Placez les appareils dans des espaces communs, pas dans des pieces fermees',
+          'Creez des regles familiales claires pour l\'utilisation de la technologie',
+          'Consacrez du temps quotidien sans ecran pour le dialogue familial',
+          'Apprenez les signes d\'influence negative du contenu numerique'
+        ]
+      }
+    ]
+  }
+};
+
+function renderDigitalSafety() {
+  const data = DIGITAL_SAFETY[lang];
+  if (!data) return '';
+  let html = `<div class="digital-safety-guide">`;
+  html += `<h3 class="safety-title">${data.title}</h3>`;
+  data.categories.forEach(cat => {
+    html += `<div class="safety-category">`;
+    html += `<h4 class="safety-cat-name">${cat.name}</h4>`;
+    html += `<ul class="safety-tips-list">`;
+    cat.tips.forEach(tip => {
+      html += `<li class="safety-tip">${tip}</li>`;
+    });
+    html += `</ul></div>`;
+  });
+  html += `</div>`;
+  return html;
+}
+
+// ═══════════════ SUCCESS STORIES DATABASE ═══════════════
+const SUCCESS_STORIES = {
+  ar: [
+    {
+      title: 'الجزائر — صمود اللغة والهوية',
+      summary: 'رغم ١٣٠ عاماً من الاستعمار الفرنسي ومحاولات فرض اللغة الفرنسية وطمس الهوية العربية والإسلامية، نجح الشعب الجزائري في الحفاظ على لغته ودينه وهويته. لعبت الزوايا والكتاتيب والمساجد دوراً محورياً في هذا الصمود، وبعد الاستقلال عام ١٩٦٢ تمت استعادة العربية كلغة رسمية.',
+      lesson: 'الهوية المتجذرة في الإيمان لا يستطيع استعمار أن يقتلعها'
+    },
+    {
+      title: 'ماليزيا — التعليم الإسلامي الحديث',
+      summary: 'نجحت ماليزيا في بناء نظام تعليمي يجمع بين العلوم الحديثة والقيم الإسلامية. الجامعة الإسلامية العالمية في ماليزيا أصبحت نموذجاً يحتذى في الجمع بين التميز الأكاديمي والحفاظ على الهوية الإسلامية. خريجوها يعملون في أرقى المؤسسات العالمية مع تمسكهم بهويتهم.',
+      lesson: 'يمكن الجمع بين التفوق العلمي والتمسك بالهوية الإسلامية'
+    },
+    {
+      title: 'حركات تحفيظ القرآن في أفريقيا',
+      summary: 'في ظل ظروف الفقر والحرمان، نجحت حركات تحفيظ القرآن في غرب أفريقيا وشرقها في تخريج ملايين الحفّاظ عبر نظام الكتاتيب التقليدية. هذه الحركات حافظت على الهوية الإسلامية في مواجهة أعنف حملات التغيير الثقافي.',
+      lesson: 'القرآن هو الحصن الأقوى لحماية الهوية الإسلامية'
+    },
+    {
+      title: 'تركيا — استعادة الهوية',
+      summary: 'بعد عقود من التغريب القسري ومنع الحجاب وإغلاق المدارس الدينية، نجح المجتمع التركي في استعادة كثير من ملامح هويته الإسلامية. إمام خطيب المدارس الدينية خرّجت قيادات في مختلف المجالات مع الحفاظ على القيم الإسلامية.',
+      lesson: 'إرادة الشعوب في الحفاظ على هويتها أقوى من أي سياسات تغريب'
+    }
+  ],
+  en: [
+    {
+      title: 'Algeria — Language and Identity Resilience',
+      summary: 'Despite 130 years of French colonialism and attempts to impose French and erase Arab-Islamic identity, the Algerian people succeeded in preserving their language, religion, and identity. Zawiyas, Quranic schools, and mosques played a central role. After independence in 1962, Arabic was restored as the official language.',
+      lesson: 'Identity rooted in faith cannot be uprooted by any colonialism'
+    },
+    {
+      title: 'Malaysia — Modern Islamic Education',
+      summary: 'Malaysia succeeded in building an educational system combining modern sciences with Islamic values. The International Islamic University Malaysia became a model for combining academic excellence with Islamic identity preservation. Its graduates work in top global institutions while maintaining their identity.',
+      lesson: 'Scientific excellence and Islamic identity can coexist'
+    },
+    {
+      title: 'Quran Memorization Movements in Africa',
+      summary: 'Under conditions of poverty and deprivation, Quran memorization movements in West and East Africa graduated millions of memorizers through traditional school systems. These movements preserved Islamic identity against the most intense cultural change campaigns.',
+      lesson: 'The Quran is the strongest fortress for protecting Islamic identity'
+    },
+    {
+      title: 'Turkey — Identity Recovery',
+      summary: 'After decades of forced westernization, banning the hijab, and closing religious schools, Turkish society succeeded in recovering many features of its Islamic identity. Imam Hatip religious schools produced leaders in various fields while preserving Islamic values.',
+      lesson: 'The will of peoples to preserve their identity is stronger than any westernization policies'
+    }
+  ],
+  fr: [
+    {
+      title: 'L\'Algerie — Resilience de la Langue et de l\'Identite',
+      summary: 'Malgre 130 ans de colonialisme francais et des tentatives d\'imposer le francais et d\'effacer l\'identite arabo-islamique, le peuple algerien a reussi a preserver sa langue, sa religion et son identite. Les zaouias, les ecoles coraniques et les mosquees ont joue un role central. Apres l\'independance en 1962, l\'arabe a ete retabli comme langue officielle.',
+      lesson: 'L\'identite enracinee dans la foi ne peut etre deracinee par aucun colonialisme'
+    },
+    {
+      title: 'La Malaisie — L\'Education Islamique Moderne',
+      summary: 'La Malaisie a reussi a construire un systeme educatif combinant sciences modernes et valeurs islamiques. L\'Universite Islamique Internationale de Malaisie est devenue un modele pour combiner excellence academique et preservation de l\'identite islamique.',
+      lesson: 'L\'excellence scientifique et l\'identite islamique peuvent coexister'
+    },
+    {
+      title: 'Mouvements de Memorisation du Coran en Afrique',
+      summary: 'Dans des conditions de pauvrete et de privation, les mouvements de memorisation du Coran en Afrique de l\'Ouest et de l\'Est ont diplome des millions de memorisateurs. Ces mouvements ont preserve l\'identite islamique contre les campagnes de changement culturel les plus intenses.',
+      lesson: 'Le Coran est la forteresse la plus solide pour proteger l\'identite islamique'
+    },
+    {
+      title: 'La Turquie — Recuperation de l\'Identite',
+      summary: 'Apres des decennies d\'occidentalisation forcee, d\'interdiction du hijab et de fermeture des ecoles religieuses, la societe turque a reussi a recuperer de nombreux traits de son identite islamique. Les ecoles religieuses Imam Hatip ont forme des leaders dans divers domaines tout en preservant les valeurs islamiques.',
+      lesson: 'La volonte des peuples de preserver leur identite est plus forte que toute politique d\'occidentalisation'
+    }
+  ]
+};
+
+function renderSuccessStories() {
+  const stories = SUCCESS_STORIES[lang];
+  if (!stories) return '';
+  const sectionTitle = lang === 'ar' ? 'قصص نجاح ملهمة' : lang === 'fr' ? 'Histoires de Succes Inspirantes' : 'Inspiring Success Stories';
+  const lessonLabel = lang === 'ar' ? 'الدرس' : lang === 'fr' ? 'Lecon' : 'Lesson';
+  let html = `<div class="success-stories-section">`;
+  html += `<h3 class="stories-title">🏆 ${sectionTitle}</h3>`;
+  stories.forEach((story, idx) => {
+    html += `<div class="story-card scroll-reveal">`;
+    html += `<h4 class="story-title">${story.title}</h4>`;
+    html += `<p class="story-summary">${story.summary}</p>`;
+    html += `<div class="story-lesson"><strong>💡 ${lessonLabel}:</strong> ${story.lesson}</div>`;
+    html += `</div>`;
+  });
+  html += `</div>`;
+  return html;
+}
+
+// ═══════════════ PROTECTION STRATEGIES ═══════════════
+const PROTECTION_STRATEGIES = {
+  ar: {
+    title: 'استراتيجيات الحماية الشاملة',
+    strategies: [
+      {
+        name: 'التحصين الفكري',
+        icon: '🧠',
+        description: 'بناء قاعدة معرفية إسلامية صلبة من خلال دراسة العقيدة والقرآن والسيرة النبوية',
+        steps: ['حفظ القرآن وتدبره يومياً', 'دراسة السيرة النبوية بعمق', 'تعلم أصول العقيدة من مصادر موثوقة', 'حضور حلقات العلم والمحاضرات']
+      },
+      {
+        name: 'التربية المناعية',
+        icon: '🛡️',
+        description: 'تعليم الأبناء كيفية التعامل مع الشبهات والتحديات من خلال بناء شخصية إسلامية قوية',
+        steps: ['تعليم التفكير النقدي منذ الصغر', 'مناقشة الشبهات الشائعة وطرق الرد عليها', 'بناء الثقة بالهوية الإسلامية', 'تقديم قدوات إسلامية ملهمة']
+      },
+      {
+        name: 'البناء المؤسسي',
+        icon: '🏗️',
+        description: 'إنشاء مؤسسات إسلامية قوية تملأ الفراغات التي يستغلها الآخرون',
+        steps: ['دعم المدارس الإسلامية المتميزة', 'المساهمة في بناء المراكز الشبابية', 'تمويل المشاريع الإعلامية الإسلامية', 'إنشاء جمعيات خيرية شفافة وفعالة']
+      },
+      {
+        name: 'المشاركة الرقمية',
+        icon: '💻',
+        description: 'التواجد الفعال والمؤثر على المنصات الرقمية بمحتوى إسلامي عالي الجودة',
+        steps: ['إنشاء محتوى إسلامي جذاب ومتقن', 'دعم صناع المحتوى الإسلامي الجيد', 'مشاركة المحتوى الإيجابي على نطاق واسع', 'تعلم مهارات صناعة المحتوى الرقمي']
+      }
+    ]
+  },
+  en: {
+    title: 'Comprehensive Protection Strategies',
+    strategies: [
+      {
+        name: 'Intellectual Fortification',
+        icon: '🧠',
+        description: 'Building a solid Islamic knowledge base through studying aqeedah, Quran, and Prophetic biography',
+        steps: ['Memorize and reflect on the Quran daily', 'Study the Prophetic biography in depth', 'Learn the foundations of creed from reliable sources', 'Attend knowledge circles and lectures']
+      },
+      {
+        name: 'Immunity Education',
+        icon: '🛡️',
+        description: 'Teaching children how to deal with doubts and challenges by building a strong Islamic personality',
+        steps: ['Teach critical thinking from a young age', 'Discuss common doubts and how to respond', 'Build confidence in Islamic identity', 'Provide inspiring Islamic role models']
+      },
+      {
+        name: 'Institutional Building',
+        icon: '🏗️',
+        description: 'Establishing strong Islamic institutions that fill the gaps others exploit',
+        steps: ['Support excellent Islamic schools', 'Contribute to building youth centers', 'Fund Islamic media projects', 'Create transparent and effective charitable organizations']
+      },
+      {
+        name: 'Digital Engagement',
+        icon: '💻',
+        description: 'Effective and influential presence on digital platforms with high-quality Islamic content',
+        steps: ['Create attractive and professional Islamic content', 'Support good Islamic content creators', 'Share positive content widely', 'Learn digital content creation skills']
+      }
+    ]
+  },
+  fr: {
+    title: 'Strategies de Protection Globales',
+    strategies: [
+      {
+        name: 'Fortification Intellectuelle',
+        icon: '🧠',
+        description: 'Construire une base solide de connaissances islamiques par l\'etude de la croyance, du Coran et de la biographie prophetique',
+        steps: ['Memoriser et mediter le Coran quotidiennement', 'Etudier la biographie prophetique en profondeur', 'Apprendre les fondements de la croyance de sources fiables', 'Assister aux cercles de savoir et conferences']
+      },
+      {
+        name: 'Education Immunitaire',
+        icon: '🛡️',
+        description: 'Enseigner aux enfants comment gerer les doutes et les defis en construisant une personnalite islamique forte',
+        steps: ['Enseigner la pensee critique des le plus jeune age', 'Discuter des doutes courants et comment y repondre', 'Construire la confiance dans l\'identite islamique', 'Fournir des modeles islamiques inspirants']
+      },
+      {
+        name: 'Construction Institutionnelle',
+        icon: '🏗️',
+        description: 'Creer des institutions islamiques fortes qui comblent les lacunes exploitees par d\'autres',
+        steps: ['Soutenir les ecoles islamiques excellentes', 'Contribuer a la construction de centres de jeunesse', 'Financer des projets mediatiques islamiques', 'Creer des organisations caritatives transparentes et efficaces']
+      },
+      {
+        name: 'Engagement Numerique',
+        icon: '💻',
+        description: 'Presence efficace et influente sur les plateformes numeriques avec du contenu islamique de haute qualite',
+        steps: ['Creer du contenu islamique attrayant et professionnel', 'Soutenir les bons createurs de contenu islamique', 'Partager largement le contenu positif', 'Apprendre les competences de creation de contenu numerique']
+      }
+    ]
+  }
+};
+
+function renderProtectionStrategies() {
+  const data = PROTECTION_STRATEGIES[lang];
+  if (!data) return '';
+  let html = `<div class="protection-strategies">`;
+  html += `<h3 class="strategies-title">🛡️ ${data.title}</h3>`;
+  data.strategies.forEach(strat => {
+    html += `<div class="strategy-card scroll-reveal">`;
+    html += `<div class="strategy-header">${strat.icon} <strong>${strat.name}</strong></div>`;
+    html += `<p class="strategy-desc">${strat.description}</p>`;
+    html += `<ol class="strategy-steps">`;
+    strat.steps.forEach(step => {
+      html += `<li>${step}</li>`;
+    });
+    html += `</ol></div>`;
+  });
+  html += `</div>`;
+  return html;
+}
 
 // ═══════════════ INIT ═══════════════
 document.addEventListener('DOMContentLoaded', () => {
